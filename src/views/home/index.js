@@ -7,7 +7,7 @@ import {
   incrementAsync,
   decrement,
   decrementAsync
-} from '../../modules/counter'
+} from '../../modules/actions/counter'
 
 class Home extends React.Component {
   render() {

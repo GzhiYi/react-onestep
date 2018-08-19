@@ -1,4 +1,4 @@
-import Home from './home/index'
-import About from './about/index'
+import Home from './Home/index'
+import About from './About/index'
 
 export { Home, About }
