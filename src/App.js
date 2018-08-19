@@ -8,6 +8,7 @@ class App extends React.Component {
     <div className="app">
       <header>
         <Link to="/">Home</Link>
+        &nbsp;
         <Link to="/about">About</Link>
       </header>
       {route}
