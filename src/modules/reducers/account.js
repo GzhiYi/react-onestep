@@ -19,7 +19,7 @@ export default (state = initialState, action) => {
 
     case GET_GITHUB_ACCOUNT_SUCCESS:
       return Object.assign({}, state, {
-        response: action.repsonse,
+        response: action.response,
         isFetching: false
       })
 

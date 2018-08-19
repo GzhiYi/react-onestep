@@ -1,0 +1,13 @@
+.about {
+  .input-name {
+    width: 180px;
+  }
+  .item {
+    display: flex;
+    .key {
+      width: 50%;
+      text-align: right;
+      margin-right: 30px;
+    }
+  }
+}
