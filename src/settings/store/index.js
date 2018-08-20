@@ -10,13 +10,12 @@ const initialState = {}
 const enhancers = []
 const middleware = [
   thunk,
-  routerMiddleware(history),
-  logger
+  routerMiddleware(history)
 ]
 
 if (process.env.NODE_ENV === 'development') {
   const devToolsExtension = window._REDUX_DEVTOOLS_EXTENSION__
-
+  middleware.push(logger)
   if (typeof devToolsExtension === 'function') {
     enhancers.push(devToolsExtension())
   }
