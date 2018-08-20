@@ -3,7 +3,7 @@
 ### 克隆
 
 ```bash
-git clone git@github.com:GzhiYi/react-template.git
+git clone git@github.com:GzhiYi/react-onestep.git
 cd react-template
 yarn
 ```
@@ -14,7 +14,7 @@ yarn
 
 ### 内建命令
 
-具备React Create App命令，但经过弹出原始隐藏配置后，`npm run eject`或者`yarn run eject`不可用。
+具备Create React App命令，但经过弹出原始隐藏配置后，`npm run eject`或者`yarn run eject`不可用。
 
 #### `npm start` 或 `yarn start`
 
