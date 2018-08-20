@@ -4,9 +4,10 @@
 
 ```bash
 git clone git@github.com:GzhiYi/react-onestep.git
-cd react-template
+cd react-onestep
 yarn
 ```
+可选npm包管理安装package`npm install`  
 如果不想要提交历史，可以克隆后手动删除.git文件夹后再初始化仓库。
 
 ### 分支
