@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import {
   getGithubInfo
 } from '../../modules/actions/account'
+import { Button } from 'antd'
 import './index.css'
 
 class About extends React.Component {
@@ -42,6 +43,7 @@ class About extends React.Component {
             )
           })
         }
+        <Button>Antd</Button>
       </div>
     )
   }
