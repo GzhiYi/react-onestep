@@ -1,5 +1,7 @@
 本项目基于[`Create React App`](https://github.com/facebookincubator/create-react-app)
 
+*不维护，感兴趣跟进create react app自行操作～*
+
 ### 克隆
 
 ```bash
